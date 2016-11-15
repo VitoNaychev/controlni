@@ -1,11 +1,13 @@
 #include<stdio.h>
 
 int main(){
-    char c;
-    int n;
-    scanf("%c", &c);
-    scanf("%d", &n);
-    for(; c <= 'z'; c += n) printf("%c\n", c);
+    char letter;
+    int interval;
+    printf("Enter letter: ");
+    scanf("%c", &letter);
+    printf("Enter interval: ");
+    scanf("%d", &interval);
+    for(; letter <= 'z' && letter >= 'a'; letter += interval) printf("%c\n", letter);
     
     return 0;
 }

@@ -1,26 +1,27 @@
 #include<stdio.h>
 
 int main(){
-    char b[34], c[68];
-    int lenghtC, lenghtB;
-    fgets(c, 34, stdin);
-    fgets(b, 34, stdin);
+    char a[34], b[68]; //suzdavame dvata masiva 'a' i 'b'
+    int lenghtA, lenghtB;
+    fgets(a, 34, stdin);//vuvejdame 'a'
+    fgets(b, 34, stdin);//vuvejdame 'b'
+    //note: fgets() vzima i nov red i go dobavq v masiva
     for(int i = 0 ; ; i++){
-        if(c[i] == '\0'){ 
-            lenghtC = --i;
+        if(a[i] == '\0'){  //namirame duljinata na masiva 'a'
+            lenghtA = --i; //vadim ot duljinata 1(po tozi na4in ignorirame zatapva6tiq simvol)
             break;
         }
     }
 
     for(int i = 0 ; ; i++){
-        if(b[i] == '\0'){ 
+        if(b[i] == '\0'){  //namirame diljinata na masiva 'b'
             lenghtB = i;
             break;
         }
     }
-    for(int i = 0; i < lenghtB ; i++){
-        c[i + lenghtC] = b[i];
+    for(int i = 0; i < lenghtB ; i++){ //zapo4vame da dobavqme v kraq na 'a' simvolite ot 'b'
+        a[i + lenghtA] = b[i];
     }
-    printf("%s", c);
+    printf("%s", a);
     return 0;
 }
