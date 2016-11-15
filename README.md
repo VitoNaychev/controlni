@@ -18,4 +18,24 @@
     <td>15.11.2016</td>
     <td>:heavy_check_mark:</td>
   </tr>
+  <tr>
+    <td>22.11.2016</td>
+    <td>:x:</td>
+  </tr>
+  <tr>
+    <td><b>29.11.2016</b></td>
+    <td>:x:</td>
+  </tr>
+  <tr>
+    <td>13.12.2016</td>
+    <td>:x:</td>
+  </tr>
+  <tr>
+    <td>20.12.2016</td>
+    <td>:x:</td>
+  </tr>
+  <tr>
+    <td><b>17.01.2017</b></td>
+    <td>:x:</td>
+  </tr>
 </table>
