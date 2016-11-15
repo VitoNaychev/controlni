@@ -8,7 +8,7 @@ int main(){
     //note: fgets() vzima i nov red i go dobavq v masiva
     for(int i = 0 ; ; i++){
         if(a[i] == '\0'){  //namirame duljinata na masiva 'a'
-            lenghtA = --i; //vadim ot duljinata 1(po tozi na4in ignorirame zatapva6tiq simvol)
+            lenghtA = --i; //vadim ot duljinata 1(po tozi na4in ignorirame terminira6tata nula)
             break;
         }
     }
