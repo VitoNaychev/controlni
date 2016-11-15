@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td>25.10.2016</td>
-    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
   </tr>
   <tr>
     <td>08.11.2016</td>
