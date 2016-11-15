@@ -7,7 +7,7 @@ int main(){
     fgets(b, 34, stdin);
     for(int i = 0 ; ; i++){
         if(c[i] == '\0'){ 
-            lenghtC = i;
+            lenghtC = --i;
             break;
         }
     }
@@ -18,8 +18,8 @@ int main(){
             break;
         }
     }
-    for(int i = lenghtC - 1, j = 0; j < lenghtB ; i++, j++){
-        c[i] = b[j];
+    for(int i = 0; i < lenghtB ; i++){
+        c[i + lenghtC] = b[i];
     }
     printf("%s", c);
     return 0;
