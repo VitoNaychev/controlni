@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    char a[34], b[68]; //suzdavame dvata masiva 'a' i 'b'
+    char a[68], b[34]; //suzdavame dvata masiva 'a' i 'b'
     int lenghtA, lenghtB;
     fgets(a, 34, stdin);//vuvejdame 'a'
     fgets(b, 34, stdin);//vuvejdame 'b'
