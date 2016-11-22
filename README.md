@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <td>22.11.2016</td>
-    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
   </tr>
   <tr>
     <td><b>29.11.2016</b></td>
